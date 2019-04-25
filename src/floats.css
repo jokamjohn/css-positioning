@@ -1,0 +1,138 @@
+body {
+    background-color: darkslategrey;
+}
+
+.wrapper {
+    background-color: #fff;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+img {
+    float: left;
+    margin: 10px;
+}
+
+.floater {
+    background-color: white;
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 960px;
+}
+
+.blue {
+    background-color: blue;
+    float: right;
+}
+
+.red {
+    background-color: red;
+    float: right;
+}
+
+.green {
+    background-color: green;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+}
+
+.services {
+    background-color: white;
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 960px;
+}
+
+.service {
+    background-color: antiquewhite;
+    width: 29%;
+    float: right;
+    padding: 1%;
+    margin: 1%;
+    text-align: center;
+}
+
+.services:after {
+    content: '';
+    display: block;
+    clear: both; /* Clear both right and left floats and also fits the services in their parent div*/
+}
+
+.content {
+    background-color: gray;
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 960px;
+}
+
+.columns {
+    background-color: white;
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 960px;
+}
+
+.columns:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+section, aside {
+    float: left;
+    width: 46%;
+    margin: 1%;
+    padding: 1%;
+}
+
+.not-float {
+    background-color: white;
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 960px;
+}
+
+.not-float:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.not-float p {
+    column-count: 3;
+    -webkit-column-count: 3;
+    column-rule: 1px solid #ccc;
+    -webkit-column-rule: 1px solid #ccc;
+    text-align: justify;
+    column-gap: 50px;
+    -webkit-column-gap: 50px;
+}
+
+nav {
+    background-color: #333;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 0 20px;
+    float: left;
+}
+
+nav ul {
+    /*margin: auto;*/
+    /*width: fit-content;*/
+}
+
+nav ul:after {
+    content: '';
+    display: block;
+    clear: both;
+}

@@ -1,0 +1,80 @@
+.main {
+    display: flex;
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+
+.box-1 {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: 0 20px;
+}
+
+.main-2 {
+    display: flex;
+    background-color: blue;
+    padding: 20px;
+    color: white;
+    height: 500px;
+    margin: 20px;
+}
+
+.box-2 {
+    height: 200px;
+    width: 200px;
+    background-color: #333333;
+    margin: 0 20px;
+}
+
+.box-3 {
+    height: 150px;
+    width: 200px;
+    background-color: #333333;
+    margin: 0 20px;
+}
+
+.box-4 {
+    height: 100px;
+    width: 200px;
+    background-color: #333333;
+    margin: 0 20px;
+}
+
+.start {
+    justify-content: flex-start;
+}
+
+.start-1 {
+    justify-content: flex-end;
+}
+
+.start-2 {
+    justify-content: center;
+}
+
+.start-3 {
+    justify-content: space-between;
+}
+
+.start-4 {
+    justify-content: space-around;
+}
+
+.start-5 {
+    justify-content: space-evenly;
+}
+
+/*align items*/
+.item {
+    align-items: flex-start;
+}
+
+.item-1 {
+    align-items: stretch;
+}
+
+.item-2 {
+    align-items:baseline;
+}
